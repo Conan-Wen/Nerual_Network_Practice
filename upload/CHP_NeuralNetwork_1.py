@@ -105,11 +105,11 @@ class NeuralNetwork:
 
 # ---------- Read data ----------
 # training set
-data = pd.read_csv('../california_housing_train.csv')
+data = pd.read_csv('./california_housing_train.csv')
 # Normalize the training data set
 data = (data - data.mean()) / data.std()
 # Normalize the test data set
-test = pd.read_csv('../california_housing_test.csv')
+test = pd.read_csv('./california_housing_test.csv')
 test = (test - test.mean()) / test.std()
 
 # extrac explanatory variable from the training set
