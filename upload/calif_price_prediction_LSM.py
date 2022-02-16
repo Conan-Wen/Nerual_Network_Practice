@@ -2,6 +2,10 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 
+'''
+    create the model by least squares method
+'''
+
 # ---------- Read data ----------
 # training set
 data = pd.read_csv('./california_housing_train.csv')
